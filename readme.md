@@ -18,5 +18,10 @@ python -m pip install --upgrade pip
  ```shell
 pip install git+ssh://git@github.com/ibqn/pystdlib.git
 ```
+test that the library was installed correctly by the following command
+```shell
+python -c 'import pystdlib;print("ok")'
+```
+to deactivate venv run `deactivate`
 
 create new repository by running `git init` and check its status with `git status`
